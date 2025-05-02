@@ -1,8 +1,6 @@
-# dwm-rei
+# dwm-asuka
 
-![Screenshot](./5220042280658923639.jpg)
-
-### suckless's dwm rei theme
+### suckless's dwm asuka theme
 
 ## info
 
@@ -16,7 +14,7 @@ you can see:
 - picom
 - flameshot
 - pfetch
-- dmenu
+- cava
 - ncpamixer
 
 ## install
@@ -43,9 +41,9 @@ you also need JetbrainsMono Font
 
 enter to terminal:
 ```bash
-git clone https://github.com/0krohska/dwm-rei
-cd dwm-rei
-sudo (doas)cp -r startdwm.sh date.sh /usr/local/bin/
+git clone https://github.com/0krohska/dwm-asuka
+cd dwm-asuka
+sudo (doas) cp -r startdwm.sh date.sh /usr/local/bin/
 cd dwm
 make
 sudo (doas) make install
@@ -53,7 +51,7 @@ sudo (doas) make install
 
 if you use display manager, copy dwm.desktop to /usr/share/xsessions/ 
 ```bash
-cd .. # to "dwm-rei"
+cd .. # to "dwm-asuka"
 sudo (doas) cp dwm.desktop /usr/share/xsessions/
 ```
 
@@ -62,10 +60,10 @@ if you use xinit (startx), write to ~/.xinitrc "exec /usr/local/bin/startdwm.sh"
 echo "exec /usr/local/bin/startdwm.sh" >> ~/.xinitrc
 ```
 
-copy 662219.png to ~/Pictures/
+copy asuwall.jpg to ~/Pictures/
 ```bash
 mkdir ~/Pictures # if haven't
-cp 662219.png ~/Pictures/
+cp asuwall.jpg ~/Pictures/
 ```
 
 copy "alacritty" and "picom" folders to ~/.config/
