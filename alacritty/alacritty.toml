@@ -1,0 +1,10 @@
+[window]
+opacity = 1
+[font]
+normal = { family = "jetbrains mono", style = "Bold" }
+bold = { family = "jetbrains mono", style = "ExtraBold" }
+italic = { family = "jetbrains mono", style = "Italic" }
+size = 12.5
+[colors]
+[colors.primary]
+background = "#4d0000"
